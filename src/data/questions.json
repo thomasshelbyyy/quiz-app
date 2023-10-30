@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "pertanyaan": "Apa ibukota Indonesia?",
+        "jawaban": [
+            "Jakarta",
+            "Surabaya",
+            "Bandung",
+            "Semarang"
+        ],
+        "jawabanBenar": "Jakarta"
+    },
+    {
+        "id": 2,
+        "pertanyaan": "Berapa jumlah planet di tata surya?",
+        "jawaban": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "jawabanBenar": "8"
+    },
+    {
+        "id": 3,
+        "pertanyaan": "Siapakah penemu teori relativitas?",
+        "jawaban": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Nikola Tesla"
+        ],
+        "jawabanBenar": "Albert Einstein"
+    },
+    {
+        "id": 4,
+        "pertanyaan": "Apa singkatan dari HTML?",
+        "jawaban": [
+            "Hypertext Markup Language",
+            "Hyper Transfer Markup Language",
+            "High Tech Multi Language",
+            "Hypertext Multi Language"
+        ],
+        "jawabanBenar": "Hypertext Markup Language"
+    },
+    {
+        "id": 5,
+        "pertanyaan": "Apakah ibukota Jepang?",
+        "jawaban": [
+            "Osaka",
+            "Kyoto",
+            "Tokyo",
+            "Hiroshima"
+        ],
+        "jawabanBenar": "Tokyo"
+    },
+    {
+        "id": 6,
+        "pertanyaan": "Siapakah presiden pertama Amerika Serikat?",
+        "jawaban": [
+            "George Washington",
+            "Thomas Jefferson",
+            "John Adams",
+            "Abraham Lincoln"
+        ],
+        "jawabanBenar": "George Washington"
+    },
+    {
+        "id": 7,
+        "pertanyaan": "Berapa lama satu tahun dalam jumlah hari?",
+        "jawaban": [
+            "365",
+            "366",
+            "364",
+            "360"
+        ],
+        "jawabanBenar": "365"
+    },
+    {
+        "id": 8,
+        "pertanyaan": "Apa yang merupakan simbol kimia untuk emas?",
+        "jawaban": [
+            "Au",
+            "Ag",
+            "Fe",
+            "Hg"
+        ],
+        "jawabanBenar": "Au"
+    },
+    {
+        "id": 9,
+        "pertanyaan": "Apa warna langit saat matahari terbenam?",
+        "jawaban": [
+            "Biru",
+            "Merah",
+            "Kuning",
+            "Hitam"
+        ],
+        "jawabanBenar": "Merah"
+    },
+    {
+        "id": 10,
+        "pertanyaan": "Siapakah penulis drama 'Romeo and Juliet'?",
+        "jawaban": [
+            "Charles Dickens",
+            "Jane Austen",
+            "William Shakespeare",
+            "Emily Bronte"
+        ],
+        "jawabanBenar": "William Shakespeare"
+    },
+    {
+        "id": 11,
+        "pertanyaan": "Berapa jumlah provinsi di Indonesia?",
+        "jawaban": [
+            "32",
+            "33",
+            "34",
+            "35"
+        ],
+        "jawabanBenar": "34"
+    },
+    {
+        "id": 12,
+        "pertanyaan": "Apa singkatan dari ASAP?",
+        "jawaban": [
+            "As soon as possible",
+            "All systems are go",
+            "Advance system application program",
+            "As simple as possible"
+        ],
+        "jawabanBenar": "As soon as possible"
+    },
+    {
+        "id": 13,
+        "pertanyaan": "Apa ibukota Perancis?",
+        "jawaban": [
+            "Lyon",
+            "Marseille",
+            "Paris",
+            "Nice"
+        ],
+        "jawabanBenar": "Paris"
+    },
+    {
+        "id": 14,
+        "pertanyaan": "Berapa jumlah gigi dewasa pada manusia?",
+        "jawaban": [
+            "28",
+            "30",
+            "32",
+            "34"
+        ],
+        "jawabanBenar": "32"
+    },
+    {
+        "id": 15,
+        "pertanyaan": "Siapakah pelukis 'Mona Lisa'?",
+        "jawaban": [
+            "Leonardo da Vinci",
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Michelangelo"
+        ],
+        "jawabanBenar": "Leonardo da Vinci"
+    }
+]
