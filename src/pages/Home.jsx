@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import MainMenu from "../components/mainMenu"
+import MainMenu from "../components/MainMenu"
 import Quiz from "../components/Quiz"
 import PostGameMenu from "../components/PostGameMenu"
 import questions from "../data/questions.json"
