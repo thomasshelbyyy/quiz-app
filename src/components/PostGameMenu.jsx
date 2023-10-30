@@ -1,8 +1,15 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const PostGameMenu = ({ score, setCurrentQuestion, setScore, setGameStarted }) => {
 
     const [name, setName] = useState("")
+
+    useEffect(() => {
+        const storedData = JSON.parse(localStorage.getItem("leaderboard"))
+        if (!storedData) {
+            localStorage.setItem("leaderboard", JSON.stringify([]))
+        }
+    }, [])
 
     const handleTryAgain = () => {
         setCurrentQuestion(1)
