@@ -11,7 +11,7 @@ const Answers = ({ answers, setAnswered, setChoosenAnswer, time }) => {
     const [localAnswer, setLocalAnswer] = useState("")
 
     return (
-        <div className="w-3/6 flex flex-col gap-2 text-gray-950 mt-8 cursor-pointer text-lg">
+        <div className="w-4/5 md:w-3/6 flex flex-col gap-2 text-gray-950 mt-8 cursor-pointer text-lg">
             {answers && answers.map((answer, i) => (
                 <button
                     key={i}

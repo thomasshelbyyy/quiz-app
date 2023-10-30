@@ -38,7 +38,7 @@ const Quiz = ({ question, setCurrentQuestion, setScore, currentQuestion, choosen
 
     return (
         <div className="h-screen w-100 flex flex-col justify-center items-center">
-            <div className="w-3/6 flex justify-between mb-3 px-4">
+            <div className="w-4/5 md:w-3/6 flex justify-between mb-3 px-4">
                 <p className="text-xl font-semibold">Question: {currentQuestion} of 15</p>
                 <p className="text-2xl font-semibold">{time}</p>
                 <button className="px-3 py-1 bg-red-600 text-lg rounded-md" onClick={handleCancel}>Back to main menu</button>
@@ -46,7 +46,7 @@ const Quiz = ({ question, setCurrentQuestion, setScore, currentQuestion, choosen
             <Question question={question && question.pertanyaan} />
             <Answers answers={question && question.jawaban} setChoosenAnswer={setChoosenAnswer} setAnswered={setAnswered} time={time} />
             {answered && (
-                <button className="mt-4 w-3/6 bg-green-500 hover:bg-green-600 rounded-lg  py-3 text-lg font-semibold" onClick={() => handleClick(question && question.jawabanBenar)}>NEXT</button>
+                <button className="mt-4 w-4/5 md:w-3/6 bg-green-500 hover:bg-green-600 rounded-lg  py-3 text-lg font-semibold" onClick={() => handleClick(question && question.jawabanBenar)}>NEXT</button>
             )}
         </div>
     )

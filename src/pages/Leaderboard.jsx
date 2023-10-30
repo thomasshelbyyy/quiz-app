@@ -22,7 +22,7 @@ const Leaderboard = () => {
             <h1 className="text-2xl font-semibold">Leaderboard</h1>
             <Link to="/" className="text-xl px-4 py-2 my-2 rounded-full bg-green-500 hover:bg-green-600 transition duration-200 font-semibold">Back to home</Link>
             {data.length > 0 ? (
-                <ul className="w-3/6 text-gray-800">
+                <ul className="w-4/5 md:w-3/6 text-gray-800">
                     {data.map(dat => (
                         <li key={dat.name} className="w-100 px-3 py-2 text-lg flex justify-between mb-1 bg-slate-300 rounded-lg border border-blue-900 group">
                             <div>{dat.name}</div>
